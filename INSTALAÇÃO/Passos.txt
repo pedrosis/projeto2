@@ -1,0 +1,66 @@
+1 - Instalar o Git
+	a) Marcar todas as opções
+	b) Mudar editor Vim para Nano
+	c) Mudar para "Checkout as-is, commit as-is"
+	d) Manter o resto como está
+
+2 - Instalar o Python
+	a) Marcar a caixa "Add Python 3.10 to PATH"
+	b) Costumize installation
+	c) Marcar tudo em todos os campos
+
+3 - Instalar o VSCode
+	a) Marcar todas as opções e instalar
+
+4 - Instalar o Chrome
+
+5 - Liberar o PowerShell como ADM para Todos
+	a) Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+
+6 - Alterando configurações do VSCode
+	a) Ir em opções (Engrenagem)
+	b) Clicem em Abrir Opções (JSON)
+	c) Colar os dados do arquivo modelo
+
+7 - Instalar extensões no VSCode
+	a) Clicar no ícone de extensões
+	a) Instalar: Pylance e Django
+	b)
+
+8 - Ativar ambiente virtual
+	a) python -m venv venv
+	b) .\venv\Scripts\activate
+
+9 - Selecionar Interpretador
+	a) Ctrl+Shift+P -> Python: Select Interpreter -> Recomendado (venv)
+
+10 - Setups e Upgrades
+	a) pip install pip --upgrade
+	b) pip install pip setuptools wheel --upgrade
+	c) pip install pytest
+	d) pip install django
+	e) pip install mypy
+	f) pip install linter
+	g) pip install autopep8
+
+11 - Instalar temas
+	a) Extenções -> "omthemes" e "material icon theme"
+
+12 - Repositorio GitHub com Chave SSH
+	a) git config --global user.name "Pedrosis"
+	b) git config --global user.email "pedrosismoto@gmail.com"
+	c) git config --global init.defautBranch main
+	d) git init (checar se está vazia, se não, excluir)
+	e) ssh-keygen e dar um "Enter" vazio
+	f) Dar um enter vazio na senha também
+	g) Abri o local pub gerado: C:\Users\Sismoto/.ssh/id_rsa.pub e Copiar tudo
+	h) No GitHub, clicar no usuário, Settings, SSH and GPG keys, colar a chave e dar OK
+	g) No GitHub, copiar o SSH do novo repositório criado 
+	h) No VSCode: git remote add origin git@github.com:pedrosis/projeto2.git
+	i) Criar um arquivo nomeado de .gitignore e colar as configs modelo
+	j) git push --set-upstream origin main
+
+
+
+
+
